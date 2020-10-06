@@ -1,5 +1,24 @@
 body {
     color: gold;
     background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+p {
+    font-weight: bold;
+    font-size: 24pt;
+    -webkit-text-stroke: 1px darkgrey;
+}
+
+#diceNumber {
+    width: 50%;
+    height: 24px;
+    text-align: center;
+}
+
+#results {
+    color: wheat;
+    font-size: 12pt;
+}

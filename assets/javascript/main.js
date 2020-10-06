@@ -42,7 +42,7 @@ reset.addEventListener('click', function () {
     results.innerHTML = ''
     totalRolls.innerHTML = "Total: "
     dieRolls = []
-    diceNumber.innerHTML = "Enter # of Dice to Roll"
+    diceNumber.value = ''
 })
 
 // function writeWordsToPage(longWord, shortestWord) {
