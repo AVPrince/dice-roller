@@ -31,7 +31,7 @@ showAllRolls.addEventListener('click', function () {
     let index =0;
     results.innerHTML = '';
 
-    while (index < dieRolls.length) {
+    while (index+1 < dieRolls.length) {
         console.log(dieRolls[index]);
         results.innerHTML += '<li>You rolled: ' + (index+1) + ' Time it was a ' + dieRolls[index] + '</li>';
     index++;
